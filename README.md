@@ -11,7 +11,7 @@ I designed a streamlined 5-entity database system that captures the core functio
 ### My Database Entities
 
 1. **Users** - Customer account management
-2. **Categories** - Hierarchical product categorization  
+2. **Categories** - Hierarchical product categorization
 3. **Products** - Complete product catalog
 4. **Orders** - Customer purchase tracking
 5. **Order_Items** - Junction table for order details
@@ -60,13 +60,13 @@ I populated each table with 5 realistic records to demonstrate the relationships
 - Basic understanding of SQL
 
 ### Installation Steps
-1. Download the `ecommerce_store.sql` file
+1. Download the `Ecommerce.sql` file
 2. Open MySQL Workbench or connect via command line
 3. Execute the entire script:
    #sql
-   
+
    SOURCE /path/to/ecommerce_store.sql;
- 
+
 5. The script will automatically:
    - Drop any existing database
    - Create the new database and tables
