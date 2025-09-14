@@ -64,9 +64,10 @@ I populated each table with 5 realistic records to demonstrate the relationships
 2. Open MySQL Workbench or connect via command line
 3. Execute the entire script:
    #sql
+   
    SOURCE /path/to/ecommerce_store.sql;
  
-4. The script will automatically:
+5. The script will automatically:
    - Drop any existing database
    - Create the new database and tables
    - Insert all sample data
